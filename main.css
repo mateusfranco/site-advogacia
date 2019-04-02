@@ -1,0 +1,46 @@
+.font1{
+font-family: 'Quicksand', sans-serif;
+}
+.font2{
+    font-family: 'Lato', sans-serif;
+}
+.font3{
+    font-family: 'Cinzel Decorative', cursive;
+}
+.middle{
+    text-align: center;
+}
+.negrito{
+    font-weight: bold;
+}
+
+.imagecarrousel{
+    min-width: 100%;
+    min-height: 600px;
+    /* height:600px;
+    width:100%; */
+    max-width: 100%;
+    max-height: 600px;
+    height: auto;
+    width: auto;
+}
+
+.tamanhofonte{
+    font-size: 30px;
+}
+
+.pad{
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+
+.icons{
+    font-size: 40px;
+
+}
+
+.logo{
+    height: 20px;
+    width: 20px;
+}
