@@ -13,6 +13,9 @@ font-family: 'Quicksand', sans-serif;
 .negrito{
     font-weight: bold;
 }
+.init{
+    text-align: left;
+}
 
 .imagecarrousel{
     min-width: 100%;
@@ -38,6 +41,10 @@ font-family: 'Quicksand', sans-serif;
 .icons{
     font-size: 40px;
 
+}
+.icons2{
+    font-size: 30px;
+    color: black
 }
 
 .logo{

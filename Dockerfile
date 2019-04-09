@@ -4,8 +4,7 @@ LABEL maintener="mateus"
 ENV TZ=America/Los_Angeles
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
-RUN apt-get update && apt-get install apache2 -y && apt-get clean
-#php libapache2-mod-php php-mbstring php-mysql php-cli php-dom -y && apt-get clean
+RUN apt-get update && apt-get install apache2 php libapache2-mod-php php-mbstring php-mysql php-cli php-dom -y && apt-get clean
 
 ENV APACHE_RUN_USER www-data
 ENV APACHE_RUN_GROUP www-data
